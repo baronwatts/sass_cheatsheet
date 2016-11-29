@@ -1,0 +1,10 @@
+﻿After you have downloaded and install ruby (on windows)…
+
+    1. Open the terminal
+    2. type ruby -v (to check version)
+    3. gem install sass (If Sass is not already installed)
+    4. Create a directory for your project and add a css and scss folder in that project folder.
+    5. Create a main.scss file in your scss directory that imports all your other .scss files ( @import ‘filename’; )
+    6. Go to your project directory
+    7. type sass – -watch scss:css
+    8. Sass will automatically generate a main.css file in the css directory
